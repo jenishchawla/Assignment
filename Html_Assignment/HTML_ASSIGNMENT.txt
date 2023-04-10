@@ -1,0 +1,117 @@
+1 . Are the HTML tags and elements the same thing?
+HTML tags are blocks of html page and elements component that are used in html page.
+
+2 . What are tags and attributes in HTML?
+tags represting html elements in the program and attributes describing characteristics of html elements
+
+3 . What are void elements in HTML? 
+lets understand void elements using img tag so img tag must have start tag but must not have end tag. so that is void elements in html 
+
+4 . What are HTML Entities?
+html Entities is peace of text ("string") that begins with ampersand (&) and end with semicolon(;) and Entities are used to display reserved character
+
+5 . What are different types of lists in HTML?
+there is a three types of html lists in html 
+  1 . Ul ( unorder list)
+  2 . ol ( order list)
+  3 . dl ( discription list)
+
+6  . What is the class attribute in HTML? 
+the clss attribute mostly in used in style sheet and also useful in javascript and they specifies one or more classname for elements
+
+
+7  . What is the difference between the id attribute and the class attribute of HTML
+elements? 
+a class name used by multiple html elements and id is used by only one html elements within the page
+
+8 . What are the various formatting tags in HTML? 
+formattimg can be used to text style like bold, italic ,emphaszied etc and highlighing text making the text superscript and sub script
+  1. <b> and <strong> both tag useful in making the text bold 
+  2. <i> and <em> both tag useful in making the text italic
+  3. <small> and <big> the <small> tag useful for make the text small and <big> tag useful for make the text big
+  4. <sup> and <sub> the <sup> tag useful for make the text superscript and <sub> tag useful for make the text subscript
+  5. <ins> and <del> the <ins> tag useful for make text underline and  <ins> tag has opening and closing tag  also <del> useful for make the text mention as a delete text
+  6. <mark> the <mark> tag has also opening and closing tag and mark tag useful for making text highlighting 
+
+
+9 . How is Cell Padding different from Cell Spacing? 
+cellpadding specifies the space between the border of table cell and its content it defiens whitespace between edge and the content
+<table cellpadding="value" >.....</table>
+
+cellspacing specifies the space between cell it defines the white spacing between edge 
+<table cellspacing="value" >.....</table>
+
+
+10  .How can we club two or more rows or columns into a single row or column in an
+HTML table?
+we use colspan and rowspan attributes. to merge cell in html. The rowspan attributes is for number of rows a cell should be merge and wheres colspan attributes for number of coloum a cell should be merge. and both attributes should be placed in <td> tag.
+
+11 .What is the difference between a block-level element and an inline element?
+block-level always start from new-line and inline element never start from new line
+
+12  .How to create a Hyperlink in HTML? 
+in the html <a> defines for hyperlink and href indicate the link destination
+
+<a href="https://www.google.com/">Visit Google.com</a>
+
+13 .What is the use of an iframe tag? 
+Iframe tag specifies inline frame and inline frame use to embed another document within the current html document 
+
+14 .What is the use of a span tag? Explain with example? 
+a <span> tag is inline container used to mark up part of text or part of doucment, <span> tag easily style by css and manipuleted by javascript  using the class and id attributes,
+The <span> tag much like <div> tag but <div> is block-level tag and <span> tag is inline tag
+
+15. How to insert a picture into a background image of a web page? 
+to set the background img in to the webpage we need to use css <style> tag in the <style> tag add the property of backrgound image , property sets a graphic  such as jpg and png svg gif
+etc,  html 5 not support the <body> background attribute so css used to change and set background img
+<style>
+         body {
+            background-image: url("image name");
+         }
+      </style>
+
+16 .How are active links different from normal links? 
+if you  left and right click any one of the link  visited or unvisited it will turn into red and underline , active links shows browser  is the proccess  to load new resource 
+
+17 . What are the different tags to separate sections of text?
+<br> tag  it is used  to separate the line of text it breaks the current line and shifts the flow of the text in to the new line  
+
+<p> this used to write a paragraph of the text
+
+<blockquote> this tag defines large quoted sections
+
+18 .What is SVG? 
+svg stand for scable vector graphics and svg used to defines graphics for web
+svg has several method for drawing paths , circle text  and graphics images 
+
+
+19 . What is difference between HTML and XHTML? 
+XHTML stand for extensible hypertext markup laguage it can be considered as a part of the xml markup laguage this is the because  of xhtml  have features  of both xml and html . xhtml extend from xml and html . xhtml can be considerd  a better version of html
+
+
+20 .What are logical and physical tags in HTML? 
+    1. physical tags 
+    <b></b> indicate that text should be bold
+    <i></i> indicate that text should be italic
+    <tt></tt> indicate that text should be used with font such as same width to each character
+    <big></big> indicate that text should be big font
+    <small></small> indicate that text should be small font
+    <sub></sub> indicate that text should sub
+    <sup></sup> indicate that text should be super
+    <u></u> indicate that text have underline
+
+   2.Logical tags
+    <em></em> indicate that text should be italic
+    <strong></strong> indicate that text should be extra bold
+    <code></code> indicate that text should be looks like code formate
+    <kbd></kbd>
+    <var></var> indicate a varibale often  displayed a italics or underlined
+    <cite></cite>indicate a short quote
+
+
+
+
+
+
+
+
