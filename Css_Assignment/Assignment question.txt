@@ -1,0 +1,160 @@
+1.What are the benefits of using CSS? 
+  1.faster page speed
+  2.Better user experience
+  3.Quicker Development Time
+  4.Easy Formatting changes
+  5. Compatibility Across Devices
+
+2.What are the disadvantages of CSS?
+  1.Confusion due to many css levels (css , css2 , css3)
+  2.Cross-Browser Issues because diffrent browsers work diffrently
+  3.Security issue
+  4. Extra work load for Developer because Design services are required to consider and test all css codes across diffrent browsers for compability So in this case Devloper workload increase
+
+3.What is the difference between CSS2 and CSS3?
+CSS2 (Cascading Style Sheets, level 2) and CSS3 (Cascading Style Sheets, level 3) are both versions of the CSS specification, which is used for styling web pages.The main difference between CSS2 and CSS3 is that CSS3 includes new features and improvements that were not present in CSS2. Some of the key differences between the two versions are:
+1.Selectors
+2.Media queries
+3.Borders and backgrounds
+4.Text effects
+
+4.Name a few CSS style components
+1.Color: The color property sets the color of text, borders, and backgrounds.
+
+2.Font: The font-family property sets the font for text on a web page, while the font-size property sets the size of the font.
+
+3.Padding: The padding property adds space within an element, between the element's content and its border.
+
+4.Margin: The margin property adds space outside an element, between the element's border and other elements on the page.
+
+5.Border: The border property sets the style, width, and color of an element's border.
+
+6.Background: The background-color property sets the color of an element's background, while the background-image property sets an image as the background.
+
+7.Position: The position property sets the positioning method of an element, which can be relative, absolute, fixed, or static.
+
+5.What do you understand by CSS opacity?
+CSS opacity is a property that allows you to adjust the transparency of an element, which means how much the element allows the background to show through.The opacity property is measured as a value between 0 and 1, where 0 is completely transparent (invisible) and 1 is completely opaque (solid). For example, setting an opacity of 0.5 would make the element 50% transparent, allowing the background to show through.
+
+6.How can the background color of an element be changed? 
+The background color of an element can be changed in CSS using the background-color property.
+
+7.How can image repetition of the backup be controlled? 
+The background-repeat property accepts four different values:
+
+1.repeat: This is the default value, which causes the background image to repeat both horizontally and vertically to fill the element.
+
+2.repeat-x: This causes the background image to repeat only horizontally, to fill the element's width.
+
+3.repeat-y: This causes the background image to repeat only vertically, to fill the element's height.
+
+4.no-repeat: This causes the background image to be displayed only once, without any repetition.
+
+8.What is the use of the background-position property? 
+The background-position property in CSS is used to set the position of a background image within an element. It specifies where the top left corner of the background image should be placed relative to the top left corner of the element.
+
+The background-position property can take different types of values, including:
+
+Keywords: left, center, right, top, bottom, or center center, which are used to position the background image relative to the element.
+
+
+9.Which property controls the image scroll in the background? 
+The background-attachment property in CSS is used to control whether a background image scrolls with the rest of the page content or remains fixed in place as the user scrolls the page.
+
+The background-attachment property can take the following values:
+
+scroll: This is the default value, which causes the background image to scroll with the rest of the page content as the user scrolls.
+
+fixed: This causes the background image to remain fixed in place as the user scrolls the page. This can create the effect of a background image that appears to be pinned to the page while the rest of the content scrolls over it.
+
+local: This value is used to create a scrolling effect where the background image scrolls within the element itself, rather than with the rest of the page content. This can be useful for creating parallax effects or other types of dynamic backgrounds.
+
+10.Why should background and color be used as separate properties? 
+In CSS, it is generally recommended to use separate properties for setting the background and color of an element, rather than combining them into a single property, for a few reasons:
+
+Flexibility: Separating the background and color properties allows for greater flexibility in styling. For example, you may want to change the color of the text without affecting the background color, or vice versa. By using separate properties, you can easily adjust the color or background of an element without affecting the other property.
+
+Readability: Separating the background and color properties can also make your code more readable and easier to understand for others who may be working on the same project. It's easier to identify which property is responsible for which aspect of the styling when they are separated.
+
+Code maintenance: When you use separate properties for background and color, it can be easier to maintain your code over time, especially when making updates or changes. If you combine the properties into a single shorthand property, it can be more difficult to make changes or updates later on.
+
+11.How to center block elements using CSS1? 
+CSS1 did not have a built-in way to center block elements horizontally or vertically. However, there are some workarounds that you can use to achieve this effect.
+1.Using the margin property:
+2.Using text-align property:
+3.Using absolute positioning:
+
+12.How to maintain the CSS specifications?
+1.Use a CSS reset
+2.Use a consistent naming convention
+3.Organize your CSS code
+4.Minimize the use of inline styles
+5.Validate your CSS
+
+13.What are the ways to integrate CSS as a web page? 
+There are three ways to integrate CSS into a web page:
+
+1.Inline CSS: In inline CSS, you can add CSS directly to an HTML element by using the "style" attribute. 
+2.Internal CSS: In internal CSS, you can add CSS code within the "head" section of an HTML document using the "style" element.
+3.External CSS: In external CSS, you can create a separate file with a ".css" extension that contains all the CSS rules for your web page. Then you can link to that file from your HTML document using the "link" element. 
+
+14.What is embedded style sheets?
+Embedded style sheets are a way of adding CSS code within an HTML document using the "style" element. The "style" element should be placed within the "head" section of an HTML document.
+
+example, the CSS code is placed within the "style" element, and it applies the styles to the "h1" and "p" elements within the HTML document. The advantage of embedded style sheets is that they allow you to keep the CSS code within the same HTML file, which can be convenient for smaller web pages or for testing purposes. However, for larger web projects, it is often better to use an external style sheet for easier maintenance and organization of code.
+
+15.What are the external style sheets? 
+External style sheets are a way of separating the CSS code from the HTML document and storing it in a separate file with a ".css" extension. This file can then be linked to the HTML document using the "link" element within the "head" section of the HTML document.
+
+16.What are the advantages and disadvantages of using external style sheets? 
+1.Advantages:
+
+ 1.Separation of concerns: External style sheets allow the separation of presentation (CSS) from content (HTML), which makes it easier to maintain and update the web page design and content separately.
+
+ 2.Consistent design: External style sheets can be used across multiple pages on a website, ensuring consistent design and branding throughout.
+
+ 3.Increased efficiency: By using a single external style sheet for multiple web pages, the amount of code that needs to be downloaded and parsed by the browser is reduced, which can result in faster loading times for users.
+Ease of use: External style sheets are easy to maintain and edit using a simple text editor or dedicated CSS editor.
+
+2.Disadvantages:
+
+ 1.Extra HTTP request: Each external style sheet requires an additional HTTP request to be made, which can increase page load time if the file size is large or the server is slow.
+
+ 2.Complexity: Using external style sheets can make the HTML code more complex, as it requires linking to another file and managing file paths, which can make the code harder to understand and maintain.
+
+3.Compatibility issues: External style sheets may not be supported by older browsers or some mobile devices, which can result in inconsistent display across different platforms.
+
+4.Security risks: External style sheets may be vulnerable to attacks such as Cross-site Scripting (XSS) or CSS Injection, which can compromise the security of the web page or server.
+
+17.What is the meaning of the CSS selector?
+In CSS (Cascading Style Sheets), a selector is a pattern that is used to select one or more HTML elements on which to apply a particular set of styles. Selectors allow you to specify which elements in an HTML document you want to style, based on various criteria such as element type, class name, ID, attribute, or relationship with other elements.
+
+18.What are the media types allowed by CSS? 
+CSS supports several media types that allow the same web page to be presented differently based on the output device, such as screen, print, or speech. The media types allowed by CSS are:
+
+1.all: This is the default media type that applies to all devices.
+
+2.screen: This media type is used for displaying the web page on a screen, such as a computer monitor, TV, or mobile device.
+
+3.print: This media type is used for printing the web page on a printer or other similar devices.
+
+4.speech: This media type is used for presenting the web page as speech, such as in screen readers or text-to-speech software.
+
+5.projection: This media type is used for projecting the web page on a wall or other large display.
+
+19.What is the rule set? 
+In CSS, a rule set is a collection of one or more rules that define how a particular set of HTML elements should be styled. A rule set consists of two parts: a selector and a declaration block.
+
+1.The selector specifies which HTML elements the rule set applies to. Selectors can target HTML elements based on their element type, class, ID, or other attributes.
+
+2.The declaration block contains one or more declarations, which specify the styles to be applied to the selected elements. Each declaration consists of a property and a value, separated by a colon (:).
+
+3.Multiple declarations can be included in a single rule set, separated by semicolons (;).
+
+Rule sets allow you to apply styles to specific HTML elements or groups of elements, giving you fine-grained control over the appearance of your web pages. You can create multiple rule sets with different selectors and declarations to create complex and visually appealing designs.
+
+
+
+
+
+
