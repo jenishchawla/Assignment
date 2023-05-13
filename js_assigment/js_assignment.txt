@@ -1,0 +1,147 @@
+JAVASCRIPT BASIC & DOM 
+  
+ 1)What is JavaScript?  
+  
+ JavaScript is the Programming Language for the Web. 
+  
+ JavaScript can update and change both HTML and CSS. 
+  
+ JavaScript can calculate, manipulate and validate data. 
+  
+  
+  
+  
+ 2) What is the use of isNaN function?  
+ The isNaN() function determines whether a value is NaN when converted to a number. Because coercion inside the isNaN() function can be surprising, you may alternatively want to use Number.isNaN(). 
+  
+ <!-- isNaN("37.37"); covert string to number use "isnan()" --> 
+  
+  
+  
+  
+ 3) What is negative Infinity?  
+  JavaScript displays the NEGATIVE_INFINITY value as -Infinity . This value behaves mathematically like infinity; for example, anything multiplied by infinity is infinity, and anything divided by infinity is zero. In ECMAScript v1 and later, you can also use -Infinity instead of Number. NEGATIVE_INFINITY . 
+  
+  
+  
+  
+ 4) Which company developed JavaScript?  
+  
+ "Netscape" and "Eich" designed JavaScript as a scripting language for use with the company's flagship web browser, Netscape Navigator. Initially known as LiveScript, Netscape changed the name to JavaScript so they could position it as a companion for the Java language, a product of their partner, Sun Microsystems. 
+  
+  
+ 5)  What are undeclared and undefined variables?  
+     ====>  var x ; 
+            console.log("x") 
+            <!-- here x   is undeclared  here error show becouse values not set--> 
+  
+    ====> console.log("y") 
+    <!-- here result is error y is undefined , becouse not var ,let,const set value--> 
+  
+  
+  
+  
+ 6)  Write the code for adding new elements dynamically? 
+  
+ <!-- <body> 
+       <h1> 
+          Welcome To Tutorials Point 
+       </h1> 
+  
+       <div id="innerdiv"></div> 
+  
+       <button id="mybutton"> 
+          Click to Add HTML element 
+       </button> 
+  
+       <script> 
+                   ==>>>>>.// here select button  and add event click and fuction run selectct div and inside h3 tag in write same word add. 
+           
+          document.getElementById("mybutton").addEventListener("click", function () { 
+             document.getElementById("innerdiv").innerHTML += "<h3>Hello User</h3><p>Start your learning journey today.</p>"; 
+          }); 
+       </script> 
+    </body> 
+    </html> --> 
+  
+ 7)  What is the difference between ViewState and SessionState? 
+  
+ - A ViewState is a state of a page within a browser wherein the values of controls persist when post back operation is done. 
+ When another page is loaded, the previous page data is no longer available. 
+  
+ - SessionState is the data of a user session and is maintained on the server side. This data available until user closes the browser or session time-outs. 
+  
+  
+ 8)  What is === operator?  
+  
+ ==== opretor check variables values and datatype  
+ <!-- var a = 5; 
+ var b = "5"; 
+ console.log(a===b) --> 
+ <!-- here result is false, becouse ====  check value and type  ,about ex in a value is number and b values is string type so result is false --> 
+  
+  
+ 9) How can the style/class of an element be changed? 
+ ===> 
+     document.getElementById("id").classList                 ====>   (class add ,remove,change)// 
+     document.getElementById("id").style.property = new_style    ====>(style property add color,b-color,any etc... ) 
+  
+ 10) How to read and write a file using JavaScript?  
+ ===> 
+  
+  1) const fs = require('fs') 
+     let fInput = "You are reading the content from Tutorials Point" 
+    fs.writeFile('tp.txt', fInput, (err) => { 
+    if (err) throw err; 
+    else{ 
+       console.log("The file is updated with the given data") 
+    } 
+  }) 
+  
+  
+  2)readFile(path, format, callBackFunc) 
+  
+  
+ 11)What are all the looping structures in JavaScript?  
+  
+ ==> Loops are handy, if you want to run the same code over and over again, each time with a different value. 
+  
+  
+ 12)  How can you convert the string of any base to an integer in JavaScript?  
+  
+ The syntax for Number() method is 
+  <!-- let a = Number("100"); 
+       let b = parseInt(Number("100.234")); --> 
+  
+  
+ 13) What is the function of the delete operator?  
+  
+ The delete operator in JavaScript is used to delete an object's property. If it is used to delete an object property that already exists, it returns true and removes the property from the object. 
+  
+  
+  
+  
+ 14) What are all the types of Pop up boxes available in JavaScript?  
+  
+ JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box. 
+  
+  
+  
+ 15) What is the use of Void (0)?  
+  
+ JavaScript void 0 means returning undefined (void) as a primitive value. You might come across the term “JavaScript:void(0)” while going through HTML documents. It is used to prevent any side effects caused while inserting an expression in a web page. 
+  
+  
+ 16) How can a page be forced to load another page in JavaScript? 
+  
+ <!-- window.location.href = "new_url"; --> 
+  
+  
+  
+ 17) What are the disadvantages of using innerHTML in JavaScript?  
+  
+ -Event handlers attached to any DOM element are preserved. 
+ -Replacement is done everywhere. 
+ -It is not possible to append innerHTML. 
+ -Breaks the document. 
+ -Used for Cross-site Scripting.
