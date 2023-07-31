@@ -62,7 +62,7 @@
     width: 100%;
     justify-content: space-evenly;
     animation: Chang 4s ease infinite;
-    overflow: hidden !important;
+    overflow: hidden !important;                       
   }
   
   @keyframes Chang {
